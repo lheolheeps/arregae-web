@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Arregaê
 
-## Getting Started
+Arregaê é uma plataforma de desafios, que misturam humor e ousadia, voltados para grupo de amigos numa resenha boa.
 
-First, run the development server:
+A plataforma é composta de um [site](https://arregae.com.br/) em React, um [app](http://) em React Native e um [serviço "Back-End"] em NodeJs, apenas para consumo da lista de desafios.
+
+Para poder fazer uso, uma das pessoas do grupo deve acessar a pagina inicial da plataforma, escolher as categorias desejadas no desafio correr pro abraço.
+
+## Principais tecnologias utilizadas
+
+- [React](https://react.dev/)
+- [Next](https://nextjs.org/)
+
+## Instalação
+
+> Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+> [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Yarn](https://classic.yarnpkg.com/en/).
+> Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn dev
+
+# O servidor inciará na porta 3333 - acesse <http://localhost:3333>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Licença
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está sob a licença MIT. Para maiores detalhes acesse o <a href="./LICENSE">arquivo de licença</a>.
