@@ -5,8 +5,6 @@ import { CircleButton } from "@components";
 
 import styles from './home.module.css';
 
-
-
 const indie = Indie_Flower({
   weight: "400",
   style: "normal",

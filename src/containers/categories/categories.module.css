@@ -1,0 +1,60 @@
+.container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* max-width: 940px;
+  margin: auto;
+  position: relative; */
+}
+
+.content {
+  padding: 1rem;
+  color: white;
+}
+
+.card {
+  background-color: rgba(100, 116, 139, 0.377);
+  border-radius: 1rem;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.info {
+  width: 85%;
+  padding-right: 0.5rem;
+}
+
+.info p {
+  font-size: 12px;
+}
+
+.footer {
+  padding: 0 1rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.white {
+  background-color: white;
+}
+
+.grey {
+  background-color: rgba(100, 116, 139, 0.377);
+}
+
+.red {
+  background-color: darkred;
+}
+
+.orange {
+  background-color: darkorange;
+}

@@ -1,0 +1,48 @@
+/* From Uiverse.io by Yaya12085 */
+.switch {
+  position: relative;
+  height: 1.5rem;
+  width: 3rem;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 9999px;
+  transition: all .3s ease;
+  background-color: rgba(100, 116, 139, 0.377);
+}
+
+.white:checked {
+  background-color: white;
+}
+
+.grey:checked {
+  background-color: rgba(100, 116, 139, 0.377);
+}
+
+.red:checked {
+  background-color: darkred;
+}
+
+.orange:checked {
+  background-color: darkorange;
+}
+
+.switch::before {
+  position: absolute;
+  content: "";
+  left: calc(1.5rem - 1.6rem);
+  top: calc(1.5rem - 1.6rem);
+  display: block;
+  height: 1.6rem;
+  width: 1.6rem;
+  cursor: pointer;
+  border: 1px solid rgba(100, 116, 139, 0.527);
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 3px 10px rgba(100, 116, 139, 0.327);
+  transition: all .3s ease;
+}
+
+.switch:checked:before {
+  transform: translateX(100%);
+}
